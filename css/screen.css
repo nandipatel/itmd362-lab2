@@ -1,19 +1,31 @@
-@media screen and (max-width: 65px){
-    html{
-        width:80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    input{
-      text-align: center;
-    }
-}
-
 body{
-  background-color:  #C7C1E8;
-}
+	background-color:  #C7C1E8;
+  color: #FF5D5D;
+  padding: 5px;
+  border: 2px solid black;
+	}
 html{
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+}
+input [type=submit] {
+  margin-left: 36%;
+  margin-right: auto;
+  text-align: center;
+}
+@media screen and (max-width: 650px){
+  html{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+  	background-color: lightblue;
+  }
+  input [type=submit] {
+    margin-left: 40%;
+    margin-right: auto;
+    text-align: center;
+  }
 }
